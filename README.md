@@ -1,6 +1,4 @@
-# CybersecurityClub
-
-  > Wiki For the Cyber Security Club
+# Cyber-Security_Club
 
 ---
 
@@ -11,6 +9,7 @@ Feel free to clone this repo.
   | Owners          | Admins                          |
   | --------------- | ------------------------------- |
   | @thomasthaddeus | @cityuseattle/cybersecurityclub |
+  | @montaguedan    |				      |
 
 - [CybersecurityClub](#cybersecurityclub)
   - [Current Owners](#current-owners)
