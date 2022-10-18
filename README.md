@@ -4,12 +4,12 @@ Wiki For the Cyber Security Club
 ---
 
 This repository was started with the intention of being a wiki where cybersecurity related documentation could be shared. The techniques and procedures for how to spot and decrypt common tasks in cybersecurity are the primary thing we hope to share here. \
-Feel free 
+Feel free to clone this repo. 
 
 ## Current Owners
-  |Owners|Admins|
-  |---|---|
-  |Thad|
+  | Owners          | Admins                          |
+  | --------------- | ------------------------------- |
+  | @thomasthaddeus | @cityuseattle/cybersecurityclub |
 
 - [CybersecurityClub](#cybersecurityclub)
   - [Current Owners](#current-owners)
