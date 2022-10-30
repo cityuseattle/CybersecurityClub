@@ -1,4 +1,4 @@
-# Cyber-Security_Club
+# Cybersecurity Club
 
 ---
 
