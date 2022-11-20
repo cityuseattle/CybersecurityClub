@@ -1,0 +1,10 @@
+{
+  "name": "auto-changelog-cy",
+  "version": "1.0.0",
+  "devDependencies": {
+    "auto-changelog": "*"
+  },
+  "scripts": {
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  }
+ }
