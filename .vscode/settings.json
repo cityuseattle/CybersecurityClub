@@ -1,3 +1,26 @@
 {
-    "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.words": [
+        "Binari",
+        "Bokeh",
+        "cdnjs",
+        "chatwoot",
+        "Civi",
+        "coala",
+        "Fastify",
+        "Habitica",
+        "Hoppscotch",
+        "jscoverage",
+        "Kinto",
+        "mitmproxy",
+        "Moby",
+        "Mvvm",
+        "osem",
+        "pixi",
+        "Shouldly",
+        "Tessel",
+        "wemake",
+        "XMPP",
+        "Zulip"
+    ]
 }
