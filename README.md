@@ -1,17 +1,8 @@
-# Cyber-Security_Club
+# Cybersecurity Club
 
 ---
 
-This repository was started with the intention of being a wiki where cybersecurity related documentation could be shared. The techniques and procedures for how to spot and decrypt common tasks in cybersecurity are the primary thing we hope to share here. \
 Feel free to clone this repo. 
-
-<!--
-## Current Owners
-  | Owners          | Admins                          |
-  | --------------- | ------------------------------- |
-  | @thomasthaddeus | @cityuseattle/cybersecurityclub |
-  | @montaguedan    |				      |
--->
 
 ## Best Practices
 
@@ -22,11 +13,5 @@ Feel free to clone this repo.
   1.  Updating the project board
   1.  Pull Requests
   1.  How to Style Code
-- [X] Create the Project Board
 
   </details>
-
-## Tutorials
-
-<!-- Add in a link to a section for this eventually-->
-1. Linux CMD Line Tutorial
