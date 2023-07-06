@@ -179,29 +179,6 @@ The website consists of several main components:
 - **Pages**: These are the actual content of your site, and can be written in HTML or Markdown. They utilize front matter to specify metadata and assign layouts.
 - **Static files and assets**: These are files such as CSS stylesheets, JavaScript files, and images. They're typically stored in an assets directory at the root of your project.
 
-### File Structure
-
-```bash
-/
-├── _includes/
-│   ├── header.html
-│   ├── footer.html
-│   └── sidebar.html
-├── _layouts/
-│   └── default.html
-├── assets/
-│   ├── css/
-│   └── img/
-├── _config.yml
-└── index.md
-```
-
-`_includes/` - This directory contains the HTML snippets that are reused across the site.
-`_layouts/` - This directory contains the layout templates.
-`assets/` - This directory contains static files such as images and CSS.
-`_config.yml` - This file is used by Jekyll to get configuration information for the site.
-`index.md` - This file is the main content file.
-
 ## Specific Components
 
 ### Header

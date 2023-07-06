@@ -1,6 +1,7 @@
 ---
 title: "About Us"
-parent: /docs/about
+parent: /docs/About
+permalink: /docs/About/
 theme: just-the-docs
 nav_order: 1
 ---
@@ -29,5 +30,3 @@ Our club hosts a range of activities, such as training sessions, workshops, capt
 If you share our passion for cybersecurity and want to learn, share, and contribute to our collective knowledge, we invite you to <!--[join us](link-to-membership-page).-->
 
 {% include footer.html %}
-
-

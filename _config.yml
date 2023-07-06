@@ -1,7 +1,8 @@
 title: City University of Seattle Cybersecurity Club
-description: #>- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+description: >- # this means to ignore newlines until "baseurl:"
+  The Cybersecurity Club is a community of passionate individuals dedicated to exploring and enhancing their knowledge in the field of cybersecurity. Our club is open to anyone with an interest in protecting digital assets, defending against cyber threats, and promoting secure practices. As a member of our club, you will have access to a wide range of resources, including workshops, guest lectures from industry professionals, hands-on training sessions, and interactive discussions on the latest trends and challenges in cybersecurity.We believe in the power of collaboration and teamwork, and our club provides a platform for networking and connecting with like-minded individuals who share a common goal of creating a safer digital environment. Whether you are a beginner looking to learn the basics or an experienced professional seeking to expand your expertise, our club welcomes individuals of all skill levels. By joining the Cybersecurity Club, you will gain practical skills and knowledge in areas such as network security, ethical hacking, cryptography, secure coding practices, incident response, and much more. You will also have the opportunity to participate in cybersecurity competitions and contribute to real-world projects that aim to address emerging cyber threats. Stay up to date with the latest news, resources, and events by following our GitHub repository. We encourage you to get involved, ask questions, and share your own experiences and insights with the community. Together, we can build a stronger and more secure digital future. Join us on this exciting journey of learning, collaboration, and innovation in the fascinating world of cybersecurity. Let's work together to protect and defend against the ever-evolving cyber threats of today and tomorrow.
+baseurl: "/CybersecurityClub" # the subpath of your site, e.g. /blog
+url: "https://cityuseattle.github.io/" # the base hostname & protocol for your site
 
 email: info@example.com
 address: 123 Main St, Anytown, USA
@@ -35,8 +36,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-collections:
-  ctfs_and_challenges:
-    output: true
-    permalink: /:collection/:path
