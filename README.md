@@ -8,7 +8,7 @@
 │   └── videos
 ├── _config.yml
 ├── .docker
-│   └── repo.dockerfile
+│   └── dockerfile
 ├── docs
 │   ├── CTFs_and_Challenges
 │   │   ├── Past_Challenges
@@ -110,7 +110,7 @@
       1. **Note** that Jekyll uses SCSS for its style files, which is a superset of `CSS` that includes features like variables and nesting.
    2. JavaScript
    3. images
-5. `index.md` file at the root of the repository is the content for the main page of the website.
+5. `index.md` file at the root of the repository is the content for the website's main page.
    1. Any .md files in the root of the repository will be converted into pages on the website.
 6. `_config.yml` file for site settings:
    1. This includes things like
@@ -120,7 +120,7 @@
 
 ## Github Pages
 
-One of the great things about Jekyll is its simplicity. To create a new page, all you have to do is create a new HTML or Markdown file.
+One of the great things about Jekyll is its simplicity. To create a new page, you must create a new HTML or Markdown file.
 
 Just specify the branch and the directory (usually `main` and `/docs`, or `main` and `root`) from where GitHub Pages should build your site.
 
@@ -168,16 +168,16 @@ git config core.hooksPath .hooks
 
 ## Overview
 
-This Jekyll-based GitHub Pages site is structured with a series of HTML and Markdown files, along with accompanying CSS for styling. The website uses Jekyll's powerful templating language, Liquid, to dynamically build the site upon each commit.
+This Jekyll-based GitHub Pages site is structured with a series of HTML and Markdown files and accompanying CSS for styling. The website uses Jekyll's powerful templating language, Liquid, to dynamically build the site upon each commit.
 
 ### Main Components
 
 The website consists of several main components:
 
-**Layouts**: These are templates that wrap around your content. They live in the `_layouts` directory.
-**Includes**: These are partials that can be included in your layouts and pages. They live in the `_includes` directory.
-**Pages**: These are the actual content of your site, and can be written in HTML or Markdown. They utilize front matter to specify metadata and assign layouts.
-**Static files and assets**: These are files such as CSS stylesheets, JavaScript files, and images. They're typically stored in an assets directory at the root of your project.
+- **Layouts**: These are templates that wrap around your content. They live in the `_layouts` directory.
+- **Includes**: These are partials that can be included in your layouts and pages. They live in the `_includes` directory.
+- **Pages**: These are the actual content of your site, and can be written in HTML or Markdown. They utilize front matter to specify metadata and assign layouts.
+- **Static files and assets**: These are files such as CSS stylesheets, JavaScript files, and images. They're typically stored in an assets directory at the root of your project.
 
 ### File Structure
 
@@ -238,9 +238,9 @@ The site's styles are defined in CSS files located in the `assets/css/` director
 
 ### Content Pages
 
-Content pages can be written in Markdown or HTML and are where the main content of the site lives. These pages utilize front matter to assign layouts and specify metadata like the page title.
+Content pages can be written in Markdown or HTML and are where the site's main content lives. These pages utilize front matter to assign layouts and specify metadata like the page title.
 
-Content pages should be added to the root directory or organized into subdirectories. Each content page that uses the default layout will automatically have the header, footer, and sidebar included.
+Content pages should be added to the root directory or organized into subdirectories. Each content page using the default layout will automatically include the header, footer, and sidebar.
 
 ### Deployment
 
@@ -249,10 +249,10 @@ Because this site is hosted on **GitHub Pages** and powered by **Jekyll**, the s
 ### Additional Information
 
 For more detailed information on how to work with Jekyll and GitHub Pages, refer to the following resources:
-This documentation is a general guide and your actual site might be slightly different based on your specific needs and customizations.
+This documentation is a general guide, and your actual site might be slightly different based on your specific needs and customizations.
 
 [Jekyll Documentation][addon-1]
 [GitHub Pages Documentation][addon-2]
 
 [addon-1]: https://github.com/ "Official Jekyll Documentation"
-[addon-2]: https://github.com/ "Official Github PAges Documentation"
+[addon-2]: https://github.com/ "Official Github Pages Documentation"
