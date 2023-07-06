@@ -1,19 +1,28 @@
 <footer>
+  <div class="container">
     <p>&copy; {{ site.time | date: '%Y' }} - {{ site.title }}</p>
 
     <!-- Social Media Links -->
     <ul>
-        <li><a href="{{ site.github_url }}">GitHub</a></li>
-        <li><a href="{{ site.twitter_url }}">Twitter</a></li>
-        <li><a href="{{ site.facebook_url }}">Facebook</a></li>
-        <!-- Add other social links as needed -->
+      <li><a href="{{ site.github_url }}">GitHub</a></li>
+      <li><a href="{{ site.twitter_url }}">Twitter</a></li>
+      <li><a href="{{ site.facebook_url }}">Facebook</a></li>
+      <!-- Add other social links as needed -->
     </ul>
-
-    <!-- Secondary Navigation -->
-    <nav>
-        <a href="{{ '/about' | relative_url }}">About</a>
-        <a href="{{ '/contact' | relative_url }}">Contact</a>
-        <a href="{{ '/privacy_policy' | relative_url }}">Privacy Policy</a>
-        <!-- Add other secondary navigation links as needed -->
-    </nav>
+    <div class="row">
+      <div class="col-md-6">
+        <p>© 2023 Cybersecurity Club. All rights reserved.</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="footer-links">
+          <li><a href="{{ site.baseurl }}{% link about.md %}">About</a></li>
+          <li><a href="{{ site.baseurl }}{% link blog.md %}">Blog</a></li>
+          <li>
+            <a href="{{ site.baseurl }}{% link resources.md %}">Resources</a>
+          </li>
+          <li><a href="{{ site.baseurl }}{% link events.md %}">Events</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
