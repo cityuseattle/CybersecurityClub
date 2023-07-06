@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-parent: /docs/About
+parent: /docs/about
 theme: just-the-docs
 nav_order: 1
 ---
