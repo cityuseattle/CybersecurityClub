@@ -1,7 +1,13 @@
 title: City University of Seattle Cybersecurity Club
 description: #>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cityuseattle.github.io/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+
+email: info@example.com
+address: 123 Main St, Anytown, USA
+twitter: example
+facebook: example
+linkedin: example
 
 # Build settings
 markdown: kramdown
