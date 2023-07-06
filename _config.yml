@@ -1,16 +1,11 @@
 title: City University of Seattle Cybersecurity Club
-email: thomasthaddeus@cityuniversity.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  This repository is a template right now for a jekyll server
-  I'm creating for my schools cybersecurity club
+description: #>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cyber.cityu.club" # the base hostname & protocol for your site
-twitter_username: thaddeusmaxima
-github_username: thomasthaddeus
+url: "https://cityuseattle.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-avatar
   - jekyll-coffeescript
