@@ -1,56 +1,56 @@
 - title: "Home"
-  href: "/"
+  href: "/docs"
 
 - title: About
-  href: /about
+  href: /docs/About
 
 - title: Contact
-  href: /contact
+  href: /docs/Contact
 
-- title: "News"
-  href: "/news/"
+- title: News
+  href: /docs/News
 
 - title: CTFs and Challenges
-  href: /CTFs_and_Challenges/
+  href: /docs/CTFs_and_Challenges
   subcategories:
     - subtitle: Past Challenges
-      subhref: /CTFs_and_Challenges/Past_Challenges/
+      href: /docs/CTFs_and_Challenges/Past_Challenges
     - subtitle: Practice Challenge
-      subhref: /CTFs_and_Challenges/Practice_Challenge/
+      href: /docs/CTFs_and_Challenges/Practice_Challenge
     - subtitle: Upcoming CTFs
-      subhref: /CTFs_and_Challenges/Upcoming_CTFs/
+      href: /docs/CTFs_and_Challenges/Upcoming_CTFs
 
 - title: Discussion and Ideas
-  href: /Discussion_and_Ideas/
+  href: /docs/Discussion_and_Ideas
 
 - title: Documentation
-  href: /documentation
+  href: /docs/Documentation
 
 - title: Miscellaneous
-  href: /Miscellaneous
+  href: /docs/Miscellaneous
 
 - title: Projects_and_Research
-  href: /Projects_and_Research
+  href: /docs/Projects_and_Research
   subcategories:
     - subtitle: Project_01
-      href:
+      href: /docs/Projects_and_Research/Project_01
     - subtitle: Research_Papers
-      href:
+      href: /docs/Projects_and_Research/Research_Papers
 
 - title: Tools_and_Software
-  href:
+  href: /docs/Tools_and_Software
   subcategories:
     - subtitle: CustomTools
-      href:
+      href: /docs/Tools_and_Software/CustomTools
     - subtitle: Open_Source_Tools
-      href:
+      href: /docs/Tools_and_Software/Open_Source_Tools
 
 - title: Tutorials
-  href:
+  href: /docs/Tutorials
   subcategories:
     - subtitle: Getting_Started
-      href:
+      href: /docs/Tutorials/Getting_Started
     - subtitle: Steganography
-      href:
+      href: /docs/Tutorials/Steganography
     - subtitle: Workshop_Materials
-      href:
+      href: /docs/Tutorials/Workshop_Materials
