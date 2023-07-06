@@ -1,0 +1,72 @@
+name: Bug Report
+description: File a bug report
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for taking the time to report a bug
+        Your feedback helps us improve our product. In order to help us address this issue as quickly as possible, please fill out this bug report as completely as you can.
+
+  - type: input
+    id: version
+    attributes:
+      label: Product Version
+      description: Please specify which version of our product you're using.
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Please provide a detailed description of the bug. Include information on how to reproduce it, what the expected behavior was, and what the actual behavior was.
+      placeholder: Detailed description here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide a list of steps that reproduce the issue. Be as detailed as possible.
+      placeholder: 1. Step 1...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Please describe what you expected to happen when you performed the above steps.
+      placeholder: I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Please describe what actually happened when you performed the above steps.
+      placeholder: But what happened was...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: If you have any additional information (screenshots, error logs, etc.) that might help us diagnose the problem, please include it here. If you can, include a link to a screenshot or a pastebin of your error logs.
+      placeholder: Additional info here...
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      description: Please confirm the following
+      options:
+        - label: I have described the issue in as much detail as possible.
+        - label: I have included any additional information that might help diagnose the problem.
+    validations:
+      required: true

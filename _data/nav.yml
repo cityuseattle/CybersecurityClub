@@ -1,0 +1,56 @@
+- title: "Home"
+  href: "/"
+
+- title: About
+  href: /about
+
+- title: Contact
+  href: /contact
+
+- title: "News"
+  href: "/news/"
+
+- title: CTFs and Challenges
+  href: /CTFs_and_Challenges/
+  subcategories:
+    - subtitle: Past Challenges
+      subhref: /CTFs_and_Challenges/Past_Challenges/
+    - subtitle: Practice Challenge
+      subhref: /CTFs_and_Challenges/Practice_Challenge/
+    - subtitle: Upcoming CTFs
+      subhref: /CTFs_and_Challenges/Upcoming_CTFs/
+
+- title: Discussion and Ideas
+  href: /Discussion_and_Ideas/
+
+- title: Documentation
+  href: /documentation
+
+- title: Miscellaneous
+  href: /Miscellaneous
+
+- title: Projects_and_Research
+  href: /Projects_and_Research
+  subcategories:
+    - subtitle: Project_01
+      href:
+    - subtitle: Research_Papers
+      href:
+
+- title: Tools_and_Software
+  href:
+  subcategories:
+    - subtitle: CustomTools
+      href:
+    - subtitle: Open_Source_Tools
+      href:
+
+- title: Tutorials
+  href:
+  subcategories:
+    - subtitle: Getting_Started
+      href:
+    - subtitle: Steganography
+      href:
+    - subtitle: Workshop_Materials
+      href:

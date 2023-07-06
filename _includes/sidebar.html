@@ -1,0 +1,31 @@
+<aside class="sidebar">
+    <div class="sidebar-content">
+        <!-- About Section -->
+        <section class="sidebar-section">
+            <h2>About</h2>
+            <p>{{ site.description }}</p>
+        </section>
+
+        <!-- Navigation Links -->
+        <section class="sidebar-section">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/docs' | relative_url }}">Docs</a></li>
+                <li><a href="{{ '/projects_and_research' | relative_url }}">Projects & Research</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </section>
+
+        <!-- Social Media Links -->
+        <section class="sidebar-section">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="{{ site.github_url }}">GitHub</a></li>
+                <li><a href="{{ site.twitter_url }}">Twitter</a></li>
+                <li><a href="{{ site.facebook_url }}">Facebook</a></li>
+                <!-- Add other social links as needed -->
+            </ul>
+        </section>
+    </div>
+</aside>
