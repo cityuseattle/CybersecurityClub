@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+    <div class="b-hero">
+        <img class="b-hero__image" src="{{ page.image }}" alt="{{ page.image_alt }}">
+        <div class="b-hero__info">
+          <h1 class="b-hero__title">{{ page.title }}</h1>
+          <div class="b-hero__author-date">
+            <span>Written by: {{ page.author }}</span>
+            <span>{{ page.date | date: "%b %d, %Y" }}</span>
+            <div class="tag-group">
+              {% for tag in page.tags %}
+                <div class="tag">
+                  <span class="tag-text">
+                    <a href="#">{{ tag }}</a>
+                  </span>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+       </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <footer class="post-footer">
+        <span class="post-date">{{ page.date | date_to_string }}</span>
+    </footer>
+</article>
