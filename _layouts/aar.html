@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Your custom CSS -->
+<link href="{{ '/assets/css/main.scss' | relative_url }}" rel="stylesheet">
+</head>
+<body>
+
+<h1><center>{{ page.title }}</center></h1>
+
+<h2>Event Details</h2>
+
+<p>
+<strong>Event Date:</strong> {{ page.event_date }}<br>
+<strong>Event Location:</strong> {{ page.event_location }}<br>
+<strong>Number of Participants:</strong> {{ page.event_participants }}
+</p>
+
+<h2>Objective</h2>
+
+<p>{{ page.event_objective }}</p>
+
+<h2>Event Overview</h2>
+
+<p>{{ page.event_overview }}</p>
+
+<h2>CTF Components Breakdown</h2>
+
+<h3>OSINT</h3>
+<p>{{ page.osint }}</p>
+
+<h3>Cryptography</h3>
+<p>{{ page.cryptography }}</p>
+
+<h3>Password Cracking</h3>
+<p>{{ page.password_cracking }}</p>
+
+<h3>Log Analysis</h3>
+<p>{{ page.log_analysis }}</p>
+
+<h3>Network Packet Captures</h3>
+<p>{{ page.network_packet_captures }}</p>
+
+<h3>Forensics</h3>
+<p>{{ page.forensics }}</p>
+
+<h3>Scanning & Reconnaissance</h3>
+<p>{{ page.scanning_reconnaissance }}</p>
+
+<h3>Enumeration & Exploitation</h3>
+<p>{{ page.enumeration_exploitation }}</p>
+
+<h3>Web Application Exploitation</h3>
+<p>{{ page.web_application_exploitation }}</p>
+
+<h2>Key Achievements</h2>
+<p>{{ page.key_achievements }}</p>
+
+<h2>Challenges and Learnings</h2>
+<p>{{ page.challenges_learnings }}</p>
+
+<h2>Recommendations for Future Events</h2>
+<p>{{ page.future_recommendations }}</p>
+
+{% include navbar.html %}
+
+<!-- Rest of your HTML goes here -->
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/menu.js' | relative_url }}"></script>
+
+<!-- Rest of your HTML here... -->
+
+<!-- JQuery and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="{{ '/assets/js/YOUR_JS_FILE.js' | relative_url }}"></script>
+
+</body>
+</html>

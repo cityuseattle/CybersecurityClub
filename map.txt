@@ -1,0 +1,100 @@
+.
+├── _config.yml
+├── docs
+│   ├── CTFs_and_Challenges
+│   │   ├── Past_Challenges
+│   │   │   ├── Challenge_01.md
+│   │   │   └── NahamCon-23.md
+│   │   ├── Practice_Challenge
+│   │   │   └── Challenge_01.md
+│   │   └── Upcoming_CTFs.md
+│   ├── Discussion_and_Ideas
+│   │   ├── Discussions.md
+│   │   ├── Idea_Tracker.md
+│   ├── Documentation
+│   │   ├── Meeting_01.md
+│   │   └── Meeting_02.md
+│   ├── Miscellaneous
+│   │   ├── Club_Overview.md
+│   │   ├── Events.md
+│   │   ├── Links_and_References.md
+│   │   └── Membership_Guidelines.md
+│   ├── Projects_and_Research
+│   │   ├── Project_01
+│   │   │   └── README.md
+│   │   └── Research_Papers
+│   │       └── Paper_01.md
+│   ├── Tools_and_Software
+│   │   ├── CustomTools
+│   │   │   └── Tool_01.md
+│   │   └── Open_Source_Tools
+│   │       └── Tool_01.md
+│   └── Tutorials_and_Training_Materials
+│       ├── External_Resources.md
+│       ├── Getting_Started
+│       │   └── Guide_01.md
+│       ├── Steganography
+│       │   ├── Overview-2.md
+│       │   ├── Overview.md
+│       │   └── Steganography.md
+│       └── Workshop_Materials
+│           └── Workshop_01.md
+├── .gitattributes
+├── .github
+│   ├── CHANGELOG.md
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── ISSUE_TEMPLATE
+│   │   ├── config.yml
+│   │   └── ISSUE_TEMPLATE.md
+│   ├── LICENSE
+│   ├── PULL_REQUEST_TEMPLATE
+│   │   └── PULL_REQUEST_TEMPLATE.md
+│   ├── SECURITY.md
+│   └── workflows
+│       ├── main.yml
+│       ├── Node.js.yml
+│       ├── .nvmrc
+│       └── tests.yml
+├── index.md
+├── jekyll.gitignore
+├── map.txt
+├── README.md
+└── src
+    ├── assets
+    │   ├── html
+    │   │   └── aar.html
+    │   ├── img
+    │   │   └── logo.png
+    │   ├── js
+    │   │   ├── main.js
+    │   │   └── menu.js
+    │   └── main.bsdesign
+    ├── cli
+    │   └── create_dir_strut.sh
+    ├── data
+    │   └── NCL Student Flyer - Fall 2023.pdf
+    ├── _drafts
+    │   └── documentation.md
+    ├── .hooks
+    │   └── pre-commit.sh
+    ├── _includes
+    │   ├── footer.html
+    │   ├── header.html
+    │   ├── nav.html
+    │   └── sidebar.html
+    ├── _layouts
+    │   ├── archive.html
+    │   ├── category.html
+    │   ├── default.html
+    │   ├── home.html
+    │   ├── page.html
+    │   ├── post.html
+    │   └── tag.html
+    ├── _plugins
+    ├── _posts
+    │  └── README.md
+    ├── python
+    ├── _sass
+    │   └── main.scss
+    └── videos

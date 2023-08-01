@@ -1,0 +1,29 @@
+<header>
+    <nav>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a href="{{ '/docs' | relative_url }}">Docs</a>
+        <a href="{{ '/projects_and_research' | relative_url }}">Projects & Research</a>
+        <!-- Add more navigation links as needed -->
+
+        <a href="{{ '/' | relative_url }}">
+            <!-- Logo -->
+            <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="{{ site.title }}" id="logo">
+            <!-- Site title -->
+            {{ site.title }}
+        </a>
+
+        <!-- Main Navigation -->
+        <a href="{{ '/docs' | relative_url }}">Docs</a>
+        <div class="dropdown">
+            <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="{{ '/projects_and_research' | relative_url }}">Projects & Research</a>
+                <a href="{{ '/more_projects' | relative_url }}">More Projects</a>
+                <!-- Add more project links as needed -->
+            </div>
+        </div>
+        <!-- Add more navigation links as needed -->
+    </nav>
+</header>

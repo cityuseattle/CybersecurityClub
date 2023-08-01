@@ -1,0 +1,56 @@
+- title: "Home"
+  href: "/docs"
+
+- title: About
+  href: /docs/About
+
+- title: Contact
+  href: /docs/Contact
+
+- title: News
+  href: /docs/News
+
+- title: CTFs and Challenges
+  href: /docs/CTFs_and_Challenges
+  subcategories:
+    - subtitle: Past Challenges
+      href: /docs/CTFs_and_Challenges/Past_Challenges
+    - subtitle: Practice Challenge
+      href: /docs/CTFs_and_Challenges/Practice_Challenge
+    - subtitle: Upcoming CTFs
+      href: /docs/CTFs_and_Challenges/Upcoming_CTFs
+
+- title: Discussion and Ideas
+  href: /docs/Discussion_and_Ideas
+
+- title: Documentation
+  href: /docs/Documentation
+
+- title: Miscellaneous
+  href: /docs/Miscellaneous
+
+- title: Projects_and_Research
+  href: /docs/Projects_and_Research
+  subcategories:
+    - subtitle: Project_01
+      href: /docs/Projects_and_Research/Project_01
+    - subtitle: Research_Papers
+      href: /docs/Projects_and_Research/Research_Papers
+
+- title: Tools_and_Software
+  href: /docs/Tools_and_Software
+  subcategories:
+    - subtitle: CustomTools
+      href: /docs/Tools_and_Software/CustomTools
+    - subtitle: Open_Source_Tools
+      href: /docs/Tools_and_Software/Open_Source_Tools
+
+- title: Tutorials
+  href: /docs/Tutorials
+  subcategories:
+    - subtitle: Getting_Started
+      href: /docs/Tutorials/Getting_Started
+    - subtitle: Steganography
+      href: /docs/Tutorials/Steganography
+    - subtitle: Workshop_Materials
+      href: /docs/Tutorials/Workshop_Materials
