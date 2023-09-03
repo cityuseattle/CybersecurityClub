@@ -38,5 +38,5 @@ gem 'jekyll-sass-converter'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-titles-from-headings'
-
+gem "nokogiri", ">= 2.9.6"
 gem "webrick", "~> 1.8"
